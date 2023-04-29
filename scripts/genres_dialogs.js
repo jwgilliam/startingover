@@ -15,6 +15,15 @@ const initializeDetailButtonGenres = () => {
       dialogElement.showModal()
     }
   )
+  document.querySelector("#button--fps").addEventListener("click",
+    thisEvent => {
+      const dialogElement = document.querySelector("#details--fps")
+      dialogElement.showModal()
+    }
+  )
 }
+
+
+
 
 export default initializeDetailButtonGenres
