@@ -21,6 +21,12 @@ const initializeDetailButtonGenres = () => {
       dialogElement.showModal()
     }
   )
+  document.querySelector("#button--mmo").addEventListener("click",
+    thisEvent => {
+      const dialogElement = document.querySelector("#details--mmo")
+      dialogElement.showModal()
+    }
+  )
 }
 
 

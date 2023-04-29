@@ -20,3 +20,15 @@ a {
   display: inline-flex;
   justify-content: space-between;
 }
+
+h1 {
+  color: azure;
+
+}
+
+.single_genre {
+  flex-basis: 30%;
+  border: 1.5px dotted black;
+  text-align: left;
+  color: antiquewhite;
+}
